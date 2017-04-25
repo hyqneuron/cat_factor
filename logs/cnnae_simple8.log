@@ -1,0 +1,11 @@
+Sequential (
+  (0): Conv2d(1, 8, kernel_size=(9, 9), stride=(3, 3), padding=(4, 4))
+  (1): ReLU ()
+  (2): ConvTranspose2d(8, 1, kernel_size=(9, 9), stride=(3, 3), padding=(4, 4))
+)
+Namespace(batch_size=128, cnnc=10, cnnf=8, force_name=True, mode='cnnae_simple', name='cnnae_simple8', nc=10, nf=80, optimizer='Adam', weight_decay=0.0001)
+{'lr': 0.001, 'wd': 0.0001}
+  0   0   39 0.673130 [2.040889 / 0.025067]
+  0   0   79 0.288951 [2.336482 / 0.015739]
+  0   0  119 0.183948 [2.526216 / 0.012128]
+  0   0  159 0.136620 [2.680561 / 0.009910]
